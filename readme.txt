@@ -1,1 +1,1 @@
-Cada branch será referente a uma disciplina diferente.
+Cada branch é referente a uma disciplina diferente.
