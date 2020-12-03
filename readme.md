@@ -1,6 +1,5 @@
 
 # Faculdade
-Trabalhos e Projetos da Faculdade
-<h5>Engenharia de Software</h5>
-<h5>Engenharia Mecatrônica</h5>
-<br>
+<h2>Trabalhos e Projetos da Faculdade<h2>
+<h4>Engenharia de Software</h4>
+<h4>Engenharia Mecatrônica</h4>
