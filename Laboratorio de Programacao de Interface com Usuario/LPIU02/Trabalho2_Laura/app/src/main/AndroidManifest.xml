@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.trabalho">
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup_descriptor"
+        android:icon="@mipmap/uni_academia"
+        android:label="LPIU"
+        android:roundIcon="@mipmap/uni_academia_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".resultadojComposto"></activity>
+        <activity android:name=".resultadoJSimples" />
+        <activity android:name=".resultadoDesconto" />
+        <activity android:name=".desconto" />
+        <activity android:name=".jurosComposto" />
+        <activity android:name=".jurosSimples" />
+        <activity android:name=".Principal" />
+        <activity
+            android:name=".SplashScreen"
+            android:theme="@style/Theme.AppCompat.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

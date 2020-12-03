@@ -1,0 +1,34 @@
+<resources>
+    <string name="selecione_o_tipo_de_calculo_que_deseja_efetuar">Selecione o tipo de calculo que deseja efetuar:</string>
+    <string name="seguir">Seguir</string>
+    <string name="juros_simples">Juros Simples</string>
+    <string name="juros_compostos">Juros Compostos</string>
+    <string name="calculo_do_desconto_simples">Calculo do Desconto Simples</string>
+    <string name="ao_ano">ao Ano</string>
+    <string name="valor_nominal_do_t_tulo">Valor Nominal do Título:</string>
+    <string name="taxa_de_desconto">Taxa de Desconto:</string>
+    <string name="ao_m_s">ao Mês</string>
+    <string name="antecipa_o_do_desconto">Antecipação do Desconto:</string>
+    <string name="vazio">" "</string>
+    <string name="calcular">Calcular</string>
+    <string name="porcentagem">%</string>
+    <string name="desconto_simples">Desconto Simples</string>
+    <string name="desconto">Desconto:</string>
+    <string name="valor_do_t_tulo">Valor do Título:</string>
+    <string name="antecipa_o">Antecipação:</string>
+    <string name="taxa">Taxa:</string>
+    <string name="calculo_de_juros_simples">Calculo de Juros Simples</string>
+    <string name="taxa_de_juros">Taxa de Juros:</string>
+    <string name="prazo">Prazo:</string>
+    <!-- Strings used for fragments for navigation -->
+
+    <string name="capital_inicial">Capital Inicial:</string>
+    <string name="calculo_de_juros_composto">Calculo de Juros Composto</string>
+    <string name="montante">Montante:</string>
+    <string name="valores">Valores</string>
+    <string name="valoresTitulo">Valores:</string>
+    <string name="prazo1">prazo</string>
+    <string name="juros_composto">Juros Composto</string>
+    <string name="bem_vindo_a_ao_sistema_de_controle_financeiro">Bem Vindo(a) ao Sistema de Controle Financeiro</string>
+    <string name="todo">TODO</string>
+</resources>

@@ -1,0 +1,22 @@
+CREATE DATABASE academico
+
+USE academico
+
+CREATE TABLE aluno(
+	id INT PRIMARY KEY NOT NULL,
+	nome VARCHAR (100) NOT NULL,
+	email VARCHAR (50) NOT NULL,
+	telefone VARCHAR (15) NOT NULL,
+	celular VARCHAR (15) NOT NULL,
+	observacao VARCHAR (200) NOT NULL,
+)
+
+CREATE TABLE professor(
+	codigo INT PRIMARY KEY NOT NULL,
+	nome VARCHAR (100) NOT NULL,
+	email VARCHAR (50) NOT NULL,
+	titulacao VARCHAR (60) NOT NULL,
+	genero VARCHAR (10) NOT NULL,
+	cidade VARCHAR (30) NOT NULL,
+)
+

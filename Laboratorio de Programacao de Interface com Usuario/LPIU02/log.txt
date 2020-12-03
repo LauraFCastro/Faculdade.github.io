@@ -1,0 +1,11 @@
+commit d533688bb5d5d9d1ff8e7bf3fd7a60e53d935752 (HEAD -> master, origin/master)
+Author: Laura Castro <laurafariacastro@outlook.com>
+Date:   Wed Jul 1 14:57:43 2020 -0300
+
+    Atualizacao - correcao de detalhes (msgs Toast e porcentagens)
+
+commit 0070cfada8dd273784e2197103a825de163e88d5
+Author: Laura Castro <laurafariacastro@outlook.com>
+Date:   Sat Jun 27 22:45:17 2020 -0300
+
+    Trabalho 02 - LPIU
