@@ -1,0 +1,78 @@
+Atlas Brasileiro Energia Solar 2a Edicao
+Atlas Solarimetrico de Minas Gerais Volume II
+
+Geração Fotovoltaica Distribuída: Estudo de Caso para Consumidores Residenciais de Salvador – Ba1 
+[Helder Henri Silva e Caldas2, Antonio Luis Silva Moisés3]
+
+PROJETO DE UM SISTEMA DE GERAÇÃO FOTOVOLTAICA PARA A UFRJ 
+[Felippe Souza Santana]
+
+Simplified Modeling of a PV Panel by using PSIM and its Comparison with Laboratory Test Results
+[Adil Salman1, Arthur Williams2, Hanya Amjad3, M. Kamran Liaqat Bhatti3, M. Saad4]
+
+Projeto de um sistema fotovoltaico autonomo de suprimento de energia usando MPPT e controle digital
+[Julio Igor Lopez Seguel]
+
+CONTROLE DE MICRORREDES CC BASEADO EM DROOP ADAPTATIVO DE TENSAO SIMULACAO EM TEMPO REAL COM CONTROL-HARDWARE-IN-LOOP
+[Rodrigo Arruda Felicio Ferreira]
+
+TUTORIAL Solar Module Physical Model
+[PSIM]
+
+THIRD PARTY STUDY INTO TYPES OF DEGRADATION ACROSS LEADING MANUFACTURERS
+[REC Solar, Product Marketing]
+
+Potential induced degradation and light induced degradation in c-Sisolar cells
+[Anil Kottantharayil, Ph.D.]
+
+Understanding Potential Induced Degradation
+[Advanced Energy]
+
+A call for quality
+[Photon Article]
+
+Potential-induced degradation in photovoltaic modules: a critical review
+[Wei Luo,ab Yong Sheng Khoo,*a Peter Hacke,c Volker Naumann,d Dominik Lausch,d Steven P. Harvey,c Jai Prakash Singh,a Jing Chai,a Yan Wang,a Armin G. Aberleae and Seeram Ramakrishnaab]
+
+Manual de Engenharia para Sistemas Fotovoltaicos
+[João Tavares Pinho / Marco Antonio Galdino]
+
+PID - The Problem and How to Solve It
+[Technical Information - SMA]
+
+Optimal sizing of a lithium battery energy storage system for grid-connected photovoltaic systems
+[Jérémy Dulout, Bruno Jammes, Corinne Alonso, Amjad Anvari Moghaddam, Adriana Luna, Josep M. Guerrero]
+
+THE SURFACE POLARIZATION EFFECT IN HIGH-EFFICIENCY SILICON SOLAR CELLS
+[R. Swanson, M. Cudzinovic, D. DeCeuster, V. Desai , Jörn Jürgens , N. Kaminar, W. Mulligan, L. Rodrigues-Barbarosa, D. Rose, D. Smith, A. Terao, and K. Wilson]
+
+Understanding Light-Induced Degradation of c-Si Solar Cells
+[Bhushan Sopori - National Renewable Energy Laboratory
+Prakash Basnyat, Sudhakar Shet, and Vishal Mehta - National Renewable Energy Laboratory and New Jersey Institute of Technology]
+
+System Voltage Potential-Induced Degradation Mechanisms in PV Modules and Methods for Test
+[Peter Hacke, Kent Terwilliger, Ryan Smith, Stephen Glick, Joel Pankow, Michael Kempe, and Sarah Kurtz - National Renewable Energy Laboratory
+Ian Bennett and Mario Kloos - Energy Research Centre of the Netherlands]
+
+Recovery Methods for Modules Affected by Potential Induced Degradation (PID)
+[Sebastian Pingel, Stefan Janke]
+
+Initial Degradation of Industrial Silicon Solar Cells in Solar Panels
+[Sebastian Pingel, Torsten Geipel, Juliane Berghold]
+
+PVSyst Tutorial [PVSyst]
+
+Normas (CEMIG e ANEEL)
+- ND 5.30 - CEMIG
+- ND 5.31 - CEMIG
+- ND 5.24
+- Resolucao Normativa Nº 482 (2012)
+- Resolucao Normativa Nº 687 (2015)
+- Procedimentos de Distribuição de Energia Elétrica no  Sistema Elétrico Nacional – PRODIST (Módulo 3)
+
+Alguns Links:
+Principio de Funcionamento da Célula Fotovoltaica
+http://www.solenerg.com.br/files/monografia_cassio.pdf
+
+Understanding PID
+http://solarenergy.advanced-energy.com/upload/File/White_Papers/ENG-PID-270-01%20web.pdf
