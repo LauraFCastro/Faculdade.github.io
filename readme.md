@@ -1,12 +1,18 @@
 
 # Faculdade
 ## Trabalhos e Projetos da Faculdade
-Engenharia de Software <br>
-Engenharia Mecatrônica
+Engenharia de Software | Engenharia Mecatrônica
 
 ### Inteligencia Computacional
-Python: Processamento de Dados, Redes Neurais (adendo: Orange Canvas)
+Processamento de Dados: Numpy, Pandas, Matplotlob, SkLearn, LabelEncoder, Seaborn
+Redes Neurais Artificiais (RNA): SkLearn, KNeighborsRegressor, StandardScaler, MLPClassifier (neural_network), Confusion_matrix
+Orange Canvas: <a href="https://orangedatamining.com/">Processamento de dados e RNA de forma visual</a>
 ### Interface com Usuario
-Interfaces desenvolvidas utilizando JSwing e Android Studio
+Linguagem utilzada: Java<br>
+Cadastro de Clientes e Cadastro de Veículos: Desenvolvido utilizando JSwing
+App para Calculo de Juros e Desconto: Desenvolvido em Android Studio
 ### Persistencia de Objetos
-Persistencia em Banco de Dados utilizando Linguagem Java, Interfaces e a API Hibernate
+Banco de Dados (MySQL)<br>
+Linguagem Java<br>
+Interfaces com JSwing<br>
+API Hibernate (para persistência)
