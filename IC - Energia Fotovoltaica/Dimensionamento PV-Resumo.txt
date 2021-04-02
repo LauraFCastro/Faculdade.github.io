@@ -1,0 +1,126 @@
+Dimensionamento Sistema Fotovoltaico
+Irradiância - Potência [kW/m2]
+Irradiação - Energia [kWh/m2]
+
+Taxas mínimas da concessionária (CEMIG):
+Monofásica - 30kWh
+Bifásica - 50kWh
+Trifásica - 100kWh
+Preço do kWh = R$0,77
+
+Fator de Dimensionamento do Inversor
+FDI = Pinv/Psistema
+FDI = 1 --> Ideal
+
+Cálculo com sombreamento:
+d = Fe (ho - h)
+Fe = Fator de espaçamento (em JF = 2)
+h = distância do módulo ao chão
+ho = altura no elemento que faz sombra
+d = distância entre módulo e elemento
+
+Inclinação ótima do módulo durante o ano:
+Verão = 10º
+Equinócios = 22º
+Inverno = 32º
+
+C = ("r*(" ?"1 + r)" ?^"n" )/(?"(1 +r) " ?^"n"  "-1" ) + OM * "Inv" /"8760* FC" 
+C = Custo Nivelado [R$/MWh] (custo por megawatt hora)
+r = taxa de juros ao longo do ano
+n = tempo
+OM = operação e manutenção
+Inv = investimento
+FC = Fator de capacidade
+
+Pfv = (Emd/TD) /HSPma
+Emd = consumo médio diário [kWh/dia]
+	Média a partir de dados anteriores de consumo
+TD = Taxa de Desempenho (definida pelo projetista)
+HSPma = Média anual de horas de sol pleno
+	HSPma Juiz de Fora = 4,73kWh/m2 dia
+
+Yf = E/Po
+Yf = Rendimento específico do sistema
+E = Energia do sistema [kWh]
+Po = Potencia nominal do sistema [kW]
+
+PR = Yf/Yr
+PR = Desempenho global do sistema (Performance Ratio)
+Yr = Produtividade de referencia
+	Yr = 365 * HSPma
+	Yr Juiz de Fora = 1726,45kWh/m2
+Geralmente 80% < PR < 60%
+
+E = Po * Yr * PR
+Outra forma de calcular a energia do sistema
+
+Perdas:
+- Ohmicas
+- Sombreamento
+- Sujeira
+- Inversores/Conversores
+- Degradação
+- Mismatch (diferença entre módulos)
+- Desligamento do sistema para manutenção
+
+FC = E/ [Po * 8760]
+FC = Fator de capacidade
+E = Energia do sistema
+Po = Potencia nominal do sistema
+8760 = horas do ano
+
+Calculando a potência necessária:
+Pfv:
+TD é um valor "chutado" com base no bom senso - geralmente 0,75 ou 0,80
+Emd = média dos últimos 12 meses
+Potência dos módulos:
+Fazer verificação financeira e verificação da área disponível
+
+Exemplo:
+Módulos de
+330W - Pfv/330 = 3 módulos
+	3 módulos = R$200,00
+	10m2 de área
+270W - Pfv/270 = 4 módulos
+	4 módulos = 100R$
+	5 m2 de área
+Analisar a área disponível e então o custo
+
+Define-se 4 módulos de 270W --> gerando 940W
+Po = 940W
+Geralmente Po > Pfv
+
+
+INVERSOR
+FDI = Pnom/Pfv
+FDI = Fator de Dimensionamento do Inversor (1 não é o valor ótimo, pois não permite uma margem de seguraça - ideal: próximo de 1,2)
+Pnom = Potencia Nominal do Inversor
+Pfv = pot. do sistema
+
+nº de módulos em série * Voc (do módulo, na menor temperatura) < Vin (inversor)
+
+Vin >= Vsérie
+Vin = Tensão de entrada do inversor
+Vsérie = soma das tensões dos módulos em série
+
+[ Vmpptmín/Vmpmaiortemp ] < nº módulos em série < [ Vmpptmax/Vmpmenortemp ]
+Vmpptmín = Tensão mínima do MPPT do inversor
+Vmpmaiortemp = Tensão no ponto de maior potência sob a maior temperatura (módulo)
+Vmpptmax = Tensão máxima do MPPT do inversor
+Vmpmenortemp = Tensão no ponto de maior potência sob a menor temperatura (módulo)
+
+nº de séries pv em paralelo = Imax/Isc
+Imax = corrente máxima CC do inversor
+Isc = Corrente de curto do módulo
+
+Tcélula = Tambiente + 15ºC --> dado empírico, utilizado na usina da UFJF
+___________________________________________________________________________
+Passo a passo:
+1. Encontrar a potência necessária para o sistema (Pfv), com base em uma TD "chutada"
+2. Calcular a PR
+3. Pode recalcular a potência do sistema com TD = PR encontrada
+4. Encontrar a potência nominal (Po)
+5. Encontrar a energia do sistema (E) considerando PR = 1 (por já ter sido recalculada com o mesmo valor de TD)
+	*caso não seja recalculada a potência do sistema (passo 3) considera-se uma PR complementar a TD (se foi definida uma TD baixa, considera-se uma PR alta, e vice versa -- ex: TD = 60% -> PR = 85%; TD = 90% -> PR = 70%; no caso de valor médio, define-se médio para ambos: TD = 75% = PR)
+6. Calcular o Fator de Capacidade (valores entre 15% e 20% - de acordo com exemplos)
+7. Dimensionar inversor a partir das fórmulas

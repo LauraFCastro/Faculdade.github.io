@@ -1,0 +1,64 @@
+NOTAS:
+A energia emitida pelo Sol chega à Terra em forma de ondas eletromagnéticas que se podem propagar no ar, água, vidro e no vazio. Este efeito é denominado de radiação solar [12]. É a principal fonte energética de todas as energias conhecidas, incluindo as associadas aos processos vitais [13]. A intensidade com que a radiação solar atinge a Terra é designada por irradiância. 
+Enquanto que a unidade padrão associada à radiação é o watt(W), na irradiância é o watt por metro quadrado (W/m2).
+A irradiação global anual é obtida pela radiação solar que incide na superfície terrestre durante um ano, e é medida em watthora por metro quadrado (Wh/m2).
+
+_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _
+https://atacadosolar.com.br/loja/kit-gerador-de-energia-solar-9-10-kwp-produc-o-de-ate-1269-kwh-mes.html
+
+https://atacadosolar.com.br/loja/painel-solar-fotovoltaico/canadian/painel-solar-fotovoltaico-canadian-solar-cs6u-325wp.html
+_____________
+Aparelhos utilizados (simulação IF):
+
+https://www.neosolar.com.br/loja/pallet-26-painel-solar-fotovoltaico-270wp-canadian-csi-cs6k-270wp.html
+26 módulos R$14.848,00
+(1 módulo = R$ 571,077
+571,077/270 = 2,1151 Real/Wp)
+
+https://www.neosolar.com.br/loja/combo-8-painel-solar-fotovoltaico-270wp-canadian-csi-cs6k-270wp.html
+8 módulos R$4.632,00
+(1 módulo = R$ 579,00
+579/270 = 2,144 Real/Wp)
+
+https://www.minhacasasolar.com.br/produto/inversor-grid-tie-12-0kw-com-wi-fi-fronius-symo-brasil-12-0-79236?atributo=178:UNICA&atributo=25:U&atributo=26:UNICA
+Inversor R$22.789,00
+
+https://www.neosolar.com.br/loja/bateria-estacionaria.html
+
+Média de horas com sol ao longo do ano em Juiz de Fora (fonte: Radiasol)
+11h 34min - Considerarei 10h (pior caso)
+10kW --- 100kWh/dia
+
+Baterias:
+>105Ah	12V
+105/10h = 10,5A
+12*10,5 = 126W durante 10h = 1,260kWh/dia
+Guardar 30% da energia:  30kWh/dia
+> Necessário: 24 baterias
+26 baterias R$ 16.354,00  --  Armazena ~ 32,76kWh/dia
+
+>220Ah	12V
+220/10 = 22A
+22A	264W	2,64kWh/dia
+Guardar 30% da energia:  30kWh/dia
+> Necessário: 12 baterias
+13 baterias R$ 14.677,00  --  Armazena ~ 31,68kWh/dia
+
+------------------------
+
+Perdas detalhadas:
+> Térmicas:
+Temperatura ambiente + aquecimento das células
+
+Média anual - Vvento = 3,08667 m/s (Juiz de Fora - https://pt.windfinder.com/windstatistics/juiz_de_fora_aeroporto)
+
+Constantes usadas para v >= 4: Uc =  25  W/m²·k, Uv = 1.2  W/m²·k/m/s 
+
+> Ohmicas
+Queda de tensão dos diodos: 0,7V
+1.5 % padrão
+
+> LID - Light Induced Degradation
+Perda de performance nas primeiras horas de exposição ao sol
+1% a 3%
+

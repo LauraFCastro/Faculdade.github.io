@@ -1,0 +1,88 @@
+Irradiancia (G) > W/m2
+Curva G x t
+
+Irradiação (H) > Wh/m2
+H = int(G) dt	
+
+Dados solarimétricos
+https://maps.nrel.gov/nsrdb-viewer/?aL=UdPEX9%255Bv%255D%3Dt%268VWYIh%255Bv%255D%3Dt%268VWYIh%255Bd%255D%3D1&bL=groad&cE=0&lR=0&mC=31.653381399664%2C-3.1640625&zL=2
+
+Coordenadas:
+-21.743083, -43.375500
+-21.741912, -43.374302
+Altitude:
+688
+
+TimeZone:
+-2
+
+JAN-FEV-MAR-ABR-MAI-JUN-JUL-AGO-SET-OUT-NOV-DEZ-
+Irradiance:
+4.501
+4.061
+3.659
+3.997
+3.789
+4.047
+3.934
+4.245
+3.682
+3.762
+3.753
+3.401
+
+Tempet.
+23.15
+23.29
+22.49
+21.14
+19.01
+17.8
+17.71
+19.16
+20.36
+21.24
+21.61
+22.31
+
+-------
+Proj.Settings:
+
+Do módulo:
+	Temp min
+	Temp max
+
+Desvio azimutal:
+angulação em relação ao Norte
+		Equador 0º
+		Sul 180º
+
+Strings em MPPTs diferentes
+
+Isc levemente indiferente para o inversor (não trabalha nesta faixa)
+
+Specific Production (Produtividade):
+	YIELD
+
+Cada 100kWh = 1kWpico (MÊS)
+
+Pós Dimensionamento:
+	Energia produzida MWh/ano
+	Performance ratio PR %
+	Specificc Prod.
+	Yeld kWh/
+
+Ageing: Perda de eficiência no sistema, ao longo do tempo
+
+Unavailability: Parar o sistema para manutenção
+
+Chuva de garanizo nos módulos?
+
+Massa de ar sobre o Brasil, mais VERMELHA = módulo de filme fino 
+	-sujeira afeta menos
+	-curvo
+
+PR real = aprx. 70%
+
+Módulo na vertical e Horizontal (Landscape e Portrait): forma de conexão + acumulo de sugeira nas pontas
+

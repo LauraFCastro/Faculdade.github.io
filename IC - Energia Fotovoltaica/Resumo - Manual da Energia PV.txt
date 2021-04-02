@@ -1,0 +1,26 @@
+A Energia Solar Fotovoltaica funciona a partir do Efeito Fotovoltaico, ou seja, energia obtida através da conversão direta da luz em eletricidade.
+As principais tencologias de módulos fotovoltaicos se dividem em três gerações. A primeira geração é a de Sílicio (monocristalino e policristalino), que compões mais de 85% do mercado por ser consolidada, confiável e possuir  melhor eficiência comecial.
+A segunda geraçaõ é a de filme fino, dividida em: Silício Amorfo, Disseleneto de cobre e Telureto de Cádio, que tem menor eficiência e apresenta dificuldades quanto a disponibilidade dos materiais, vida útil, e rendimento. Devido ao fato de módulos de filme fino serem mais flexíveis e facilmente moldáveis, esta tecnologia tem sido aplicada em locais onde o layout tem grande importância para a instalação.
+A terceira geração ainda se encontra em fase de pesquisa. São as células fotovoltaicas Multijunção e Concentração (apresenta potêncial para alta eficiência, porém o custo ainda não é competitivo), células Sensibilizadas por corante e células Orgânicas.
+
+[Dados de potência instalada]
+
+A média anual de radiação solar, medida em um plano perpendicular a direção de propagação dos raios solares na terra é de 1,367W/m2. Considerando-se a área terrestre, e perdas referentes a reflexão e absorção, a potência total disponivel, provinda do sol, é de aproximadamente 94 mil TW (94 * 10^12)
+A irradiância é referente a potência dos raios solares incidentes na superfície (W/m2). A irradiação é referente a energia destes raios (Wh/m2)
+Para absorver ao máximo a radiação solar, leva-se em consideração o ângulo de inclinação do módulo em relação ao solo e a inclinação direcional do módulo (otimização na absorção dos raios incididos).
+A massa de ar presente na superfície também interfere na irradiância disponível. Quando o sol está em zênite (no pico, horário de maior incidencia) a constante relacionada a massa de ar tem valor ótimo 1, em outras situações este valor diminui.
+
+De acordo com o Atlas Solarimétrico de Minas Gerais, disponibilazdo pela CEMIG, o valor de irradiação de Juiz de Fora xx
+
+Principio de funcionamento da Célula Fotovoltaica
+
+
+Um módulo fotovoltaico é uma unidade formada por um conjunto de células fotovoltaicas, interligadas elétricamente, em série e paralelo.
+[representação do módulo]
+
+RESISTENCIAS
+A resistência série (Rs) se origina na resistência do próprio material semicondutor, e consegue reduzir a Isc e o FF da célula, mas não afeta sua Voc.
+A resistência shunt ou paralelo (Rp), consiste em reduzir a Voc e o FF, sem influir na Isc. A Rp é causada por impurezas e defeitos na estrutura, principalmente próximo às bordas, que produzem um caminho interno para uma corrente de fuga, reduzindo assim a corrente efetivamente produzida (não válido para Isc).
+
+ASSOCIAÇÕES
+Os módulos fotovoltaicos podem ser associados em série ou paralelo, visando adequar-se  a produção desejada e a área diponível.
