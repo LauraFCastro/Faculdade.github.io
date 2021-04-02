@@ -16,9 +16,9 @@ Interfaces com JSwing<br>
 API Hibernate (para persistência)
 
 ## Iniciação Cientícia
-Dimensionamento de uma Microusina Fotovoltaica com Backup de Baterias<br>
+### Dimensionamento de uma Microusina Fotovoltaica com Backup de Baterias<br>
 Tópicos estudados:
-<ul>
+<ol>
     <li>
         Legislação CEMIG e ANEEL
     </li>
@@ -42,4 +42,4 @@ Tópicos estudados:
     <li>
         Estudo específico das perdas PID e formas de reversão.
     </li>
-</ul>
+</ol>
