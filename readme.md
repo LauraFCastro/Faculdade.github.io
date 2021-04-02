@@ -4,12 +4,12 @@
 Engenharia de Software | Engenharia Mecatrônica
 
 ### Inteligencia Computacional
-Processamento de Dados: Numpy, Pandas, Matplotlob, SkLearn, LabelEncoder, Seaborn
-Redes Neurais Artificiais (RNA): SkLearn, KNeighborsRegressor, StandardScaler, MLPClassifier (neural_network), Confusion_matrix
+Processamento de Dados: Numpy, Pandas, Matplotlob, SkLearn, LabelEncoder, Seaborn<br>
+Redes Neurais Artificiais (RNA): SkLearn, KNeighborsRegressor, StandardScaler, MLPClassifier (neural_network), Confusion_matrix<br>
 Orange Canvas: <a href="https://orangedatamining.com/">Processamento de dados e RNA de forma visual</a>
 ### Interface com Usuario
 Linguagem utilzada: Java<br>
-Cadastro de Clientes e Cadastro de Veículos: Desenvolvido utilizando JSwing
+Cadastro de Clientes e Cadastro de Veículos: Desenvolvido utilizando JSwing<br>
 App para Calculo de Juros e Desconto: Desenvolvido em Android Studio
 ### Persistencia de Objetos
 Banco de Dados (MySQL)<br>
