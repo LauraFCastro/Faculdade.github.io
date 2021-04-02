@@ -16,30 +16,29 @@ Interfaces com JSwing<br>
 API Hibernate (para persistência)
 
 ## Iniciação Cientícia
-### Dimensionamento de uma Microusina Fotovoltaica com Backup de Baterias<br>
-Tópicos estudados:
+### Dimensionamento de uma Microusina Fotovoltaica com Backup de Baterias
 <ol>
     <li>
-        Legislação CEMIG e ANEEL
+        <b>Legislação CEMIG e ANEEL</b>
     </li>
     <li>
-        Pré-requisitos de dimensionamento<br>
+        <b>Pré-requisitos de dimensionamento</b><br>
         Posicionamento, angulação, direcionamento.
     </li>
     <li>
-        Dimensionamento inicial<br>
+        <b>Dimensionamento inicial</b><br>
         Calculos manuais e com excel
     </li>
     <li>
-        Dimensionamento com softwares<br>
+        <b>Dimensionamento com softwares</b><br>
         Software para simulação de módulos
     </li>
     <li>
-        Adicionando perdas a simulação<br>
+        <b>Adicionando perdas a simulação</b><br>
         Estudo mais aprofundado das perdas sofridas<br>
         Finalização do dimensinamento
     </li>
     <li>
-        Estudo específico das perdas PID e formas de reversão.
+        <b>Estudo específico das perdas PID e formas de reversão.</b>
     </li>
 </ol>
