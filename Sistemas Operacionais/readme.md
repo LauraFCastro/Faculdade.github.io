@@ -13,10 +13,10 @@
   </ul>
 </li>
 <li><b>Algoritmos implementados:</b>
-  <ul>
-    <li>Jantar dos Filósofos (implementando semáforos/mutexes e threads)</li>
+  <ul>em desenvolvimento
+    <!-- <li>Jantar dos Filósofos (implementando semáforos/mutexes e threads)</li>
     <li>Barbeiro Dorminhoco</li>
-    <li>Pouso de Aeronaves</li>
+    <li>Pouso de Aeronaves</li> -->
   </ul>
 </li>
 </ul>
