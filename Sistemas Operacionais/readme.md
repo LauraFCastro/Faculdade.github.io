@@ -13,7 +13,8 @@
   </ul>
 </li>
 <li><b>Algoritmos implementados:</b>
-  <ul>em desenvolvimento
+  <ul>em desenvolvimento<br>
+  <a href="http://cocic.cm.utfpr.edu.br/progconcorrente/doku.php?id=python">referencia</a>
     <!-- <li>Jantar dos Filósofos (implementando semáforos/mutexes e threads)</li>
     <li>Barbeiro Dorminhoco</li>
     <li>Pouso de Aeronaves</li> -->
