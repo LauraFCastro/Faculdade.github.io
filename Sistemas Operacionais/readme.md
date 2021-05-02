@@ -4,7 +4,7 @@
 <h5>Disciplina de Engenharia de Software</h5>
 <h3>Aprendendo sobre Sistemas Operacionais, seu funcionamento e componentes</h3>
 <ul>
-<li>Pontos principais estudados:
+<li><b>Pontos principais estudados:</b>
   <ul>
     <li>Componentes principais (escalonador, kernel, memórias e )</li>
     <li>Algoritmos de Escalonamento</li>
@@ -12,7 +12,7 @@
     <li>Threads</li>
   </ul>
 </li>
-<li>Algoritmos implementados:
+<li><b>Algoritmos implementados:</b>
   <ul>
     <li>Jantar dos Filósofos (implementando semáforos/mutexes e threads)</li>
     <li>Barbeiro Dorminhoco</li>
