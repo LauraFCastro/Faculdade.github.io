@@ -1,57 +1,57 @@
 from threading import Semaphore, Thread, Lock, Event
 import time
 import random
+from datetime import datetime
 
-semaforo = Semaphore()
+
 mutex = Lock()
-cadeiras = 4
-numClientes = 0
-espera = 0
+cadeiras = 3
 filaClientes = []
 
+data_atual = date.today()
+print(data_atual)
 
-
-def Barbeiro():
-    if len(filaClientes) == 0:
-        print("0 clientes - Barbeiro dormindo")
-    else:
-        print("Barbeiro acordou")
-        mutex.locked()
-        print("Barbeiro - Cortando cabelo")
-        time.sleep(5)
-        mutex.release()
+def Barbeiro(self):
+    while True:
+        if len(filaClientes) == 0:
+            print("Barbeiro dormindo")
+        else:
+            print("Barbeiro acordou")
+            mutex.locked()
+            clienteAleatorioNaEspera = random.choice(filaClientes)
+            filaClientes.remove(clienteAleatorioNaEspera)
+            print("Barbeiro - Cortando cabelo de {0}".format(clienteAleatorioNaEspera))
+            time.sleep(random.randrange(4,6))
+            mutex.release()
 
 
 def Clientes():
-    print("Cliente entra na barbearia")
-    if len(filaClientes) >= cadeiras:
-        print("Espera cheia - cliente vai embora")
-    else:
-        print("Cliente na sala de espera")
-        filaClientes.append("Cliente{0}".format(numClientes+1))
-        mutex.acquire()
-        
+    numClientes = 0
+    while numClientes <= 8:
+        print("######Cliente entra na barbearia")
+        random.randrange(2,4)
+        numClientes=numClientes+1
+        if len(filaClientes) >= cadeiras:
+            print("Espera cheia - cliente vai embora")
+        else:
+            print("Cliente na sala de espera")
+            filaClientes.append("Cliente{0}".format(numClientes))
+            # print("fila de clientes", len(filaClientes))
+            # print("numClientes= ", numClientes)
+            mutex.acquire()
+    if numClientes == 8:
+        terminate()
+        barbeiro.join()
+
+
+def terminate(self):
+    self._running = False
+
+
+def __init__(self):
+    self._running = True
+
 
 mutex.acquire()
 barbeiro = Thread(target=Barbeiro).start()
 clientes = Thread(target=Clientes).start()
-
-Lock()
-
-
-def tarefa1():
-    print("thread 1 - sleeping")
-    time.sleep(random.randint(1,10))
-    print("T1-deve acabar primeiro")
-    Lock().release()
-
-def tarefa2():
-    print("thread 2 - sleeping")
-    time.sleep(random.randint(1,10))
-    Lock().acquire()
-    print("T2-deve acabar por ultimo")
-
-
-Lock().acquire()
-Thread(target=tarefa1).start()
-Thread(target=tarefa2).start()

@@ -21,7 +21,8 @@ def MyThread2():
 Thread(target=MyThread1).start() # cria outra linha de execucao para executar funcao 1
 MyThread2() # executa na linha principal
 
-# t1 = Thread(target=MyThread1, args=[])
-# t2 = Thread(target=MyThread2, args=[])
-# t1.start()
-# t2.start()
+t1 = Thread(target=MyThread1, args=[])
+t2 = Thread(target=MyThread2, args=[])
+t1.start()
+t2.start()
+
