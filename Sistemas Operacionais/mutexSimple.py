@@ -1,22 +1,26 @@
 from threading import Thread, Lock
 import time, random
 
-Lock()
+mutex = Lock()
 
 def tarefa1():
+    global mutex
     print("thread 1 - sleeping")
-    time.sleep(random.randint(1,10))
+    time.sleep(10)
     print("T1-deve acabar primeiro")
-    Lock().release()
+    mutex.release()
+    
 
 def tarefa2():
+    global mutex
     print("thread 2 - sleeping")
-    time.sleep(random.randint(1,10))
-    Lock().acquire()
+    time.sleep(5)
+    mutex.acquire()
     print("T2-deve acabar por ultimo")
 
 
-Lock().acquire()
+mutex.acquire()
+
 Thread(target=tarefa1).start()
 Thread(target=tarefa2).start()
 

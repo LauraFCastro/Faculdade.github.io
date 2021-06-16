@@ -6,7 +6,7 @@ def MyThread1():
     while(i<8):
         print(i, "thread 1")
         i=i+1
-    
+
 
 def MyThread2():
     i=0
@@ -14,9 +14,6 @@ def MyThread2():
         print(i,"thread 2")
         i=i+1
 
-# MyThread1()
-# print("########## entre threads #########")
-# MyThread2()
 
 Thread(target=MyThread1).start() # cria outra linha de execucao para executar funcao 1
 MyThread2() # executa na linha principal
