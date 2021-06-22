@@ -15,6 +15,8 @@ Linguagem Java<br>
 Interfaces com JSwing<br>
 API Hibernate (para persistência)
 
+## Sistemas Operacionais
+Branch Individual: sistemas-operacionais<br>
 ## Iniciação Cientícia
 ### Dimensionamento de uma Microusina Fotovoltaica com Backup de Baterias
 <ol>
