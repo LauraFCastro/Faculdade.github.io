@@ -16,7 +16,13 @@ Interfaces com JSwing<br>
 API Hibernate (para persistência)
 
 ## Sistemas Operacionais
-Branch Individual: sistemas-operacionais<br>
+
+- Componentes principais (escalonador, kernel, memórias e )
+- Algoritmos de Escalonamento
+- Regras e problemas no escalonamento
+- Threads
+- Algoritmos implementados: *Jantar dos Filósofos*, *Barbeiro Dorminhoco* e *Aeroporto*
+
 ## Iniciação Cientícia
 ### Dimensionamento de uma Microusina Fotovoltaica com Backup de Baterias
 <ol>
