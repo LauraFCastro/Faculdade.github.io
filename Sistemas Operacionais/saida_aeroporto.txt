@@ -1,0 +1,64 @@
+### Aeroporto esta abrindo ### 
+(inicia a thread da pista)
+
+
+['Nome0', 1] entrou na radar
+Espera:  [['Nome0', 1]]
+
+Aeronave ['Nome0', 1] decolando (baixa prioridade)!
+
+['Nome1', 1] entrou na radar
+
+['Nome2', 0] entrou na radar
+Aeronave ['Nome0', 1] decolou
+Espera:  [['Nome2', 0], ['Nome1', 1]] 
+
+Aeronave ['Nome2', 0] aterrisando (alta prioridade)!
+
+['Nome3', 0] entrou na radar
+
+['Nome4', 0] entrou na radar
+
+['Nome5', 0] entrou na radar
+
+['Nome6', 1] entrou na radar
+
+['Nome7', 1] entrou na radar
+
+['Nome8', 0] entrou na radar
+Aeronave ['Nome2', 0] aterrisou
+Espera:  [['Nome3', 0], ['Nome4', 0], ['Nome5', 0], ['Nome8', 0], ['Nome1', 1], ['Nome6', 1], ['Nome7', 1]] 
+
+Aeronave ['Nome3', 0] aterrisando (alta prioridade)!
+
+['Nome9', 0] entrou na radar
+Ordem de entrada:  [['Nome0', 1], ['Nome1', 1], ['Nome2', 0], ['Nome3', 0], ['Nome4', 0], ['Nome5', 0], ['Nome6', 1], ['Nome7', 1], ['Nome8', 0], ['Nome9', 0]]
+Aeronave ['Nome3', 0] aterrisou
+Espera:  [['Nome4', 0], ['Nome5', 0], ['Nome8', 0], ['Nome9', 0], ['Nome1', 1], ['Nome6', 1], ['Nome7', 1]] 
+
+Aeronave ['Nome4', 0] aterrisando (alta prioridade)!
+Aeronave ['Nome4', 0] aterrisou
+Espera:  [['Nome5', 0], ['Nome8', 0], ['Nome9', 0], ['Nome1', 1], ['Nome6', 1], ['Nome7', 1]] 
+
+Aeronave ['Nome5', 0] aterrisando (alta prioridade)!
+Aeronave ['Nome5', 0] aterrisou
+Espera:  [['Nome8', 0], ['Nome9', 0], ['Nome1', 1], ['Nome6', 1], ['Nome7', 1]] 
+
+Aeronave ['Nome8', 0] aterrisando (alta prioridade)!
+Aeronave ['Nome8', 0] aterrisou
+Espera:  [['Nome9', 0], ['Nome1', 1], ['Nome6', 1], ['Nome7', 1]] 
+
+Aeronave ['Nome9', 0] aterrisando (alta prioridade)!
+Aeronave ['Nome9', 0] aterrisou
+Espera:  [['Nome1', 1], ['Nome6', 1], ['Nome7', 1]] 
+
+Aeronave ['Nome1', 1] decolando (baixa prioridade)!
+Aeronave ['Nome1', 1] decolou
+Espera:  [['Nome6', 1], ['Nome7', 1]] 
+
+Aeronave ['Nome6', 1] decolando (baixa prioridade)!
+Aeronave ['Nome6', 1] decolou
+Espera:  [['Nome7', 1]] 
+
+Aeronave ['Nome7', 1] decolando (baixa prioridade)!
+Aeronave ['Nome7', 1] decolou
